@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        form input[type="text"], form input[type="email"], form input[type="date"], form select {
+            display: block;
+            width: 300px;
+            margin: 5px auto;
+        }
+        form input[type="file"] {
+            display: block;
+            margin: 5px auto;
+        }
+        form button {
+            display: block;
+            width: 300px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>This is my portfolio. Feel free to contact me.</h1>
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="birthDate">BirthDate:</label>
+        <input type="date" id="birthDate" name="birthDate">
+
+        <label for="file">Choose File:</label>
+        <input type="file" id="file" name="file">
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+        </select>
+
+        <button type="submit">Submit Now</button>
+        <button type="reset">Reset Now</button>
+    </form>
+</body>
+</html>
